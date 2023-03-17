@@ -41,3 +41,20 @@ containerIdHere.addEventListener('click', function(){
 // containerIdHere.addEventListener('mouseover', function(){
 //     alert("Mouse over 2nd container")
 // })
+
+
+
+// setTimeout(() => {
+//     console.log("Here after 3 seconds!");
+// }, 3000); // Either we can pass a func or use arrow operator
+
+
+// setTimeout and setInterval return an id which can be used to prevent ST and SI from execution.
+
+
+// Using local storage - 
+
+localStorage.setItem('name', 'Sparsh')
+localStorage.setItem('name', 'World')
+localStorage.setItem('name', 'Hello')
+localStorage.setItem('name', 'Hellooo')
