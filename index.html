@@ -23,7 +23,7 @@
 
     <div class="container">
         <!-- This adds a button to the webpage. -->
-        <button id="clickThisBtn">
+        <button id="clickThisBtn" onclick="showAlert()">
             Click Me
         </button>
     </div>
@@ -32,13 +32,17 @@
         <p>This is a paragraph!</p>
     </div>
 
-    <div class="hello">
+    <div class="hello" id="containerIdHere">
         <p>This is a paragraph in hello div</p>
     </div>
 
     <div class="hello">
         <p>This is a paragraph in hello div</p>
     </div>
+
+    <button id="btn2" class="hello">
+        Another button
+    </button>
 
     <!-- Script tag contains JS code -->
     <script src="script_for_index.js">
